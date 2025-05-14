@@ -57,11 +57,11 @@ Sniedz gatavu nosacījumu sarakstu, piemēram:
 
 Šajā projektā tiek izmantotas vairākas datu struktūras:
 * Saraksts
-  Piemēram model_codes = [], kur glabāti rokas pulsteņu modeli.
+  - Piemēram model_codes = [], kur glabāti rokas pulsteņu modeli.
 * Teksta virkne
-   Nosaukumi, cenas un saites uz produktiem tiek apstrādātas kā teksta virknes.
+  - Nosaukumi, cenas un saites uz produktiem tiek apstrādātas kā teksta virknes.
 * Teksta file
-  `seiko_watches.txt` un `ebay_results.txt` , kur ir dati par roku pulksteņiem.
+  - `seiko_watches.txt` un `ebay_results.txt` , kur ir dati par roku pulksteņiem.
 * Selenium objekti
   - `WebDriverWait` — gaida, līdz momenta kad elements kļūst pieejams vai klikšķināms.
   - `EC.element_to_be_clickable` — pārbauda, vai elements ir gatavs klikšķim.
