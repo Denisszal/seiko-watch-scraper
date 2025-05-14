@@ -53,3 +53,20 @@ Noteiktu nosacījumu gaidīšana noteiktu laiku pirms skripta izpildes
 * from selenium.webdriver.support import expected_conditions as EC
 Sniedz gatavu nosacījumu sarakstu, piemēram:
 "element_to_be_clickable" un "presence_of_element_located"
+
+
+Šajā projektā tiek izmantotas vairākas datu struktūras:
+* Saraksts
+  Piemēram model_codes = [], kur glabāti rokas pulsteņu modeli.
+* Teksta virkne
+   Nosaukumi, cenas un saites uz produktiem tiek apstrādātas kā teksta virknes.
+* Teksta file
+  `seiko_watches.txt` un `ebay_results.txt` , kur ir dati par roku pulksteņiem.
+* Selenium objekti
+  - `WebDriverWait` — gaida, līdz momenta kad elements kļūst pieejams vai klikšķināms.
+  - `EC.element_to_be_clickable` — pārbauda, vai elements ir gatavs klikšķim.
+  - `.click()` — tiek izmantots, lai nospiestu pogas.
+  - `find_element()` — lai atrastu konkrētus HTML elementus lapā.
+  - `time.sleep()` — var izmantot, lai uzliktu pauzi starp darbībām.
+
+
